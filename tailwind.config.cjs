@@ -1,0 +1,21 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        rubik: "Rubik",
+      },
+      colors: {
+        softblue: "hsl(231, 69%, 60%)",
+        softred: "hsl(0, 94%, 66%)",
+        grayishblue: "hsl(229, 8%, 60%)",
+        verydarkblue: "hsl(229, 31%, 21%)",
+      },
+      fontSize: {
+        'body' : '18px',
+      }
+    },
+  },
+  plugins: [],
+};
