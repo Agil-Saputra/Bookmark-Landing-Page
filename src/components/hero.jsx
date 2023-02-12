@@ -7,8 +7,8 @@ import HeroText from "../layout/heroText";
 
 const hero = () => {
   return (
-    <section className="flex justify-between gap-16 md:flex-row-reverse mt-[5rem] items-center 
-    bg-
+    <section className="flex justify-center gap-16 md:flex-row-reverse mt-[5rem] items-center 
+    
     ">
       <img src={heroimg} alt="Hero Img" />
        <HeroText >
