@@ -1,14 +1,13 @@
-import Navbar from "./components/navbar";
-import Hero from "./components/hero";
-import Layout from "./layout/layout";
+import Navbar from "./components/header/navbar";
+import Hero from "./components/hero/hero";
+import Features from "./components/features/features";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App font-rubik">
       <Navbar />
-      <Layout>
-        <Hero />
-      </Layout>
+      <Hero />
+      <Features />
     </div>
   );
 }
