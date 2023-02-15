@@ -38,11 +38,12 @@
     position: absolute;
     z-index: -1;
     border-radius: 624.9375rem;
-    top: 30%;
+    top: 28%;
     right: 10%;
     height: clamp(9rem, 45vw, 17.375rem);
     width: 200%;
     background-color: theme('colors.softblue');
+    @apply 2xl:w-[115%]
     /* @apply md:right-[40%] md:top-[20%] */
 }
 
@@ -57,6 +58,10 @@
     bottom: -1px;
     left: 0;
     @apply bg-red-400 rounded-lg
+}
+
+.dots::after{
+    @apply bg-after content-[''] absolute bottom-0 left-0
 }
 
 
