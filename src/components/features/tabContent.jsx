@@ -5,7 +5,7 @@ import Button from "../ui/PrimaryBtn";
 const tab = ({ id, activeTab, title, img }) => {
   return activeTab === id ? (
     <div className="flex md:justify-center justify-between items-center md:my-12 max-md:flex-col gap-14">
-      <div className="bg-2 w-full max-w-[538px] max-h-[347px] max-md:my-12 max-md:px-8">
+      <div className="bg-2 w-full max-w-[538px] max-h-[347px] max-md:my-12 max-md:px-8 ">
         <img src={img} alt="tab1" className="object-contain pl-8" />
       </div>
       <article className="md:w-[48ch] pl-8 max-md:text-center max-md:pl-0 max-md:p-2">
