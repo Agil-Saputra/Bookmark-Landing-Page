@@ -10,7 +10,7 @@ const navbar = () => {
       <img src={logo} alt="Bookmark Logo" className="object-contain"/>   
         <nav className="flex gap-8 items-center tracking-[1.2px] max-md:hidden text-[0.8rem]">
           {menus.map((menu) => (
-            <a href={menu} key={menu}>{menu}</a>
+            <a href={menu} key={menu} className="hover:text-red-400 smooth">{menu}</a>
           ))}
           <Login />
         </nav>

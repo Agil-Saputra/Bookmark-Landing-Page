@@ -19,7 +19,8 @@ module.exports = {
         'after' : "url(../../src/assets/images/bg-dots.svg)"
       },
       screens:{
-        'hg': "1100px"
+        'hg': "1100px",
+        'sm' : "540px",
       },
     },
   },
