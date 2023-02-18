@@ -15,9 +15,6 @@ module.exports = {
       fontSize: {
         'body' : '18px',
       },
-      backgroundImage:{
-        'after' : "url(../../src/assets/images/bg-dots.svg)"
-      },
       screens:{
         'hg': "1100px",
         'sm' : "540px",
