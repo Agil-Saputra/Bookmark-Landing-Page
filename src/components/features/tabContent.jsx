@@ -8,7 +8,7 @@ const tab = ({ id, activeTab, title, img }) => {
       <div className="bg-2 w-full max-w-[538px] max-h-[347px] max-md:my-12 max-md:px-8 ">
         <img src={img} alt="tab1" className="object-contain pl-8" />
       </div>
-      <article className="md:w-[48ch] pl-8 max-md:text-center max-md:pl-0 max-md:p-2">
+      <article className="md:w-[48ch] px-8 max-md:text-center max-md:pl-0 max-md:p-2">
         <h1 className="heading">{title}</h1>
         <p className="paraf">
           Organize your bookmarks however you like. Our simple drag-and-drop

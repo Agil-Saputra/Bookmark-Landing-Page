@@ -7,7 +7,7 @@ import HeroText from "../../layout/heroText";
 
 const hero = () => {
   return (
-    <section className="flex flex-col justify-center lg:gap-16 md:justify-between md:flex-row-reverse mt-[5rem] items-center overflow-hidden
+    <section className="flex flex-col justify-center lg:gap-16 md:justify-between lg:justify-center md:flex-row-reverse mt-[5rem] items-center overflow-hidden
     ">
     <div className='w-full bg-1  max-w-[657px] max-h-[446px]'>
     <img src={heroimg} alt="Hero Img"

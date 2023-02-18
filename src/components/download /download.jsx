@@ -7,7 +7,7 @@ import Card from "./card"
 
 const download = () => {
   return (
-    <section className='grid place-items-center mt-[10rem] p-4'>
+    <section className='grid place-items-center mt-[10rem] px-8'>
     <h1 className='heading text-center'>Download the extension</h1>
       <p className='paraf text-center'>We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.</p>
       <div className='flex gap-12 justify-center items-center flex-col md:flex-row mt-12 w-full h-auto'>

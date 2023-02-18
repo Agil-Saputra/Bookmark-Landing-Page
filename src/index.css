@@ -43,7 +43,7 @@
     height: clamp(9rem, 45vw, 17.375rem);
     width: 200%;
     background-color: theme('colors.softblue');
-    @apply 2xl:w-[115%]
+    @apply 2xl:w-[325%]
     /* @apply md:right-[40%] md:top-[20%] */
 }
 
