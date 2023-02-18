@@ -13,7 +13,7 @@ const hero = () => {
     <img src={heroimg} alt="Hero Img"
           className="mx-auto w-full"/>
     </div>
-   
+
        <HeroText >
         <h1 className="text-5xl font-medium">Simple Bookmark Manager</h1>
         <p className="paraf">

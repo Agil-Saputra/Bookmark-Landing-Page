@@ -60,8 +60,18 @@
     @apply bg-red-400 rounded-lg
 }
 
+.dots{
+    @apply relative
+}
+
 .dots::after{
-    @apply bg-after content-[''] absolute bottom-0 left-0
+    content: "";
+    background-image: url(./assets/images/bg-dots.svg);
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    bottom: 7rem;
+    left: 0;
 }
 
 
