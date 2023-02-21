@@ -49,6 +49,7 @@
 
 .active{
     position: relative;
+    transform-origin: center;
 }
 .active::after{
     content: '';
@@ -57,8 +58,11 @@
     position: absolute;
     bottom: -1px;
     left: 0;
-    @apply bg-red-400 rounded-lg
+    @apply bg-red-400 smooth
 }
+
+
+
 
 .dots{
     @apply relative
@@ -73,8 +77,6 @@
     bottom: 7rem;
     left: 0;
 }
-
-
 
 
 
