@@ -6,7 +6,7 @@ const tabNav = ({ id, title, activeTab, setActiveTab }) => {
         setActiveTab(id)
     }
   return (
-    <button onClick={handleClick} className={(activeTab === id ? "active" : '') +  ' hover:text-red-400 border-b-black border-b px-12 py-4 '} >{title}</button>
+    <button onClick={handleClick} className={(activeTab === id ? "after:scale-100" : 'after:scale-0') +  ' active hover:text-red-400 border-b-black border-b px-12 py-4 smooth'} >{title}</button>
   )
 }
 

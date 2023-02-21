@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        rubik: "Rubik",
+        rubik: "Rubik, Sans-serif",
       },
       colors: {
         softblue: "hsl(231, 69%, 60%)",
