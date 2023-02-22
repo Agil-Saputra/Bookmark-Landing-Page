@@ -13,7 +13,7 @@ const features = () => {
   const [activeTab, setActiveTab] = useState("1");
 
   return (
-    <div className="mt-14">
+    <section id="FEATURES" className="mt-14">
       <div className="text-center grid place-items-center">
         <h1 className="heading">Features</h1>
         <p className=" paraf">
@@ -66,7 +66,7 @@ const features = () => {
           img={tab3}
         />
       </div>
-    </div>
+    </section>
   );
 };
 
