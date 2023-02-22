@@ -1,6 +1,5 @@
 import logo from "../../assets/logo/logo-bookmark-light.svg";
-import facebook from "../../assets/icon/icon-facebook.svg";
-import twitter from "../../assets/icon/icon-twitter.svg";
+import Social from "../ui/social"
 
 const bottomNav = () => {
   const menus = ["FEATURES", "PRICING", "CONTACT"];
@@ -15,10 +14,7 @@ const bottomNav = () => {
           </a>
         ))}
       </nav>
-      <div className="flex items-center gap-8">
-        <img src={facebook} alt="Facebook Logo" />
-        <img src={twitter} alt="Twitter Logo" />
-      </div>
+      <Social />
     </div>
   );
 };

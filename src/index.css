@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+*{
+    scroll-behavior: smooth;
+}
 .smooth{
     @apply transition-all duration-200 ease-in-out
 }
@@ -60,9 +62,6 @@
     left: 0;
     @apply bg-red-400 smooth
 }
-
-
-
 
 .dots{
     @apply relative
