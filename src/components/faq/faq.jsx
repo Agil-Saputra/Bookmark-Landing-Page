@@ -2,6 +2,10 @@ import {useState} from 'react'
 import Banner from './banner'
 import Button from '../ui/PrimaryBtn'
 
+// import all animation
+import { motion } from "framer-motion";
+import { container, item, set } from "../../utils/motion.js";
+
 const faq = () => {
     const [faqs, setFaqs] = useState([
         { question: "What is bookmark?",
@@ -42,16 +46,18 @@ const faq = () => {
       }
 
   return (
-    <section className='grid place-items-center px-4 my-[7rem]'>
-    <h1 className='heading text-center'>Frequently Asked Questions</h1>
-    <p className='paraf text-center'> Here are some of our FAQs. If you have any other questions you’d like
-        answered please feel free to email us.</p>
-  <div className='max-w-[33.75rem] border-b my-8 '>
+    <motion.section variants={container} {...set} className='grid place-items-center px-4 my-[7rem]'>
+    <motion.h1 variants={item(0.5)} className='heading text-center'>Frequently Asked Questions</motion.h1>
+    <motion.p  variants={item(0.9)} className='paraf text-center'> Here are some of our FAQs. If you have any other questions you’d like
+        answered please feel free to email us.</motion.p>
+  <motion.div variants={item(1.3)} className='max-w-[33.75rem] border-b my-8 '>
     {faqs.map((faq, i) => <Banner key={i} index={i} toggle={handleToggle} faq={faq}/>
     )}
-    </div>
+    </motion.div>
+    <motion.div variants={item(1.8)}>
    <Button title="More Info" />
-    </section>
+    </motion.div>
+    </motion.section>
   
   )
 

@@ -25,7 +25,8 @@ const navbar = () => {
   }, [showNav]) 
 
   return (
-    <header className="flex justify-between items-center px-8 md:px-20 pt-12">
+    <header 
+    className="flex justify-between items-center px-8 md:px-20 pt-12">
       <img src={logo} alt="Bookmark Logo" className="object-contain"/>   
         <nav className={(showNav ? " translate-y-0 max-md:bg-verydarkblue" : "max-md:-translate-y-full") + " flex gap-8 items-center tracking-[1.2px] text-[0.8rem] max-md:bg-opacity-90 max-md:fixed max-md:flex-col top-0 right-0 max-md:z-10 max-md:w-full max-md:h-full max-md:justify-center smooth md:text-black text-white"}>
           {menus.map((menu) => (
