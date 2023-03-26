@@ -68,11 +68,14 @@ npm run dev
 ```
 
 
-## Usage
+## What I Learn
+In this project i learn :
+- how to make a layout using flexbox and grid css on tailwind
+- how to create a functional form with react-hook-form
+- how to handling error form
+- how to make a responsive website with tailwind breakpoints
+- how  to create animation with framer motion
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 ## Roadmap
 
